@@ -1,0 +1,27 @@
+make -f sgx_u.mk LINUX_SGX_BUILD=0 all
+make[1]: Entering directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases-ascon'
+GEN  =>  app/Enclave_u.c
+CC   <=  app/Enclave_u.c
+CXX  <=  app/util.cpp
+CXX  <=  app/Authority.cpp
+CXX  <=  app/Signer.cpp
+CXX  <=  app/App.cpp
+LINK =>  App
+make[1]: Leaving directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases-ascon'
+make -f sgx_t.mk LINUX_SGX_BUILD=0 all
+make[1]: Entering directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases-ascon'
+GEN  =>  enclave/Enclave_t.c
+CC   <=  enclave/Enclave_t.c
+CXX  <=  enclave/Enclave.cpp
+LINK =>  Enclave.so
+<EnclaveConfiguration>
+    <ProdID>0</ProdID>
+    <ISVSVN>0</ISVSVN>
+    <StackMaxSize>0x40000</StackMaxSize>
+    <HeapMaxSize>0x1000000</HeapMaxSize>
+    <TCSNum>10</TCSNum>
+    <TCSPolicy>1</TCSPolicy>
+    <DisableDebug>0</DisableDebug>
+</EnclaveConfiguration>
+SIGN =>  Enclave.signed.so
+make[1]: Leaving directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases-ascon'

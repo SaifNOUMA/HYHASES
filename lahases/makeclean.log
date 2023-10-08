@@ -1,0 +1,6 @@
+make -f sgx_u.mk clean
+make[1]: Entering directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases'
+make[1]: Leaving directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases'
+make -f sgx_t.mk clean
+make[1]: Entering directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases'
+make[1]: Leaving directory '/home/snouma/workspace/sgx/intel-sgx-ssl/Linux/sgx/lahases'

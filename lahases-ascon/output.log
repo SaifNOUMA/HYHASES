@@ -1,0 +1,45 @@
+[MSGSIZE=32]
+DEBUG: average sig-gen: 3.46 us
+DEBUG: average sig-ver: 48.50 us
+DEBUG: average comcons: 2759.74 us
+
+[MSGSIZE=64]
+DEBUG: average sig-gen: 3.46 us
+DEBUG: average sig-ver: 48.66 us
+DEBUG: average comcons: 2758.31 us
+
+[MSGSIZE=128]
+DEBUG: average sig-gen: 3.66 us
+DEBUG: average sig-ver: 48.63 us
+DEBUG: average comcons: 2758.04 us
+
+[MSGSIZE=256]
+DEBUG: average sig-gen: 3.76 us
+DEBUG: average sig-ver: 49.24 us
+DEBUG: average comcons: 2760.09 us
+
+[MSGSIZE=512]
+DEBUG: average sig-gen: 4.22 us
+DEBUG: average sig-ver: 50.28 us
+DEBUG: average comcons: 2766.50 us
+
+[MSGSIZE=1024]
+DEBUG: average sig-gen: 4.98 us
+DEBUG: average sig-ver: 51.61 us
+DEBUG: average comcons: 2759.25 us
+
+[MSGSIZE=2048]
+DEBUG: average sig-gen: 6.70 us
+DEBUG: average sig-ver: 55.58 us
+DEBUG: average comcons: 2762.95 us
+
+[MSGSIZE=4096]
+DEBUG: average sig-gen: 9.83 us
+DEBUG: average sig-ver: 59.79 us
+DEBUG: average comcons: 2761.95 us
+
+[MSGSIZE=8192]
+DEBUG: average sig-gen: 16.41 us
+DEBUG: average sig-ver: 66.89 us
+DEBUG: average comcons: 2763.22 us
+

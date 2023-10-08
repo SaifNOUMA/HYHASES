@@ -1,0 +1,45 @@
+[MSGSIZE=32]
+DEBUG: avg sig-gen  = 8.93 us
+DEBUG: avg sig-ver  = 9.51 us
+DEBUG: avg pkconst  = 4404.88 us
+
+[MSGSIZE=64]
+DEBUG: avg sig-gen  = 9.18 us
+DEBUG: avg sig-ver  = 9.66 us
+DEBUG: avg pkconst  = 4411.09 us
+
+[MSGSIZE=128]
+DEBUG: avg sig-gen  = 9.13 us
+DEBUG: avg sig-ver  = 9.72 us
+DEBUG: avg pkconst  = 4386.36 us
+
+[MSGSIZE=256]
+DEBUG: avg sig-gen  = 9.44 us
+DEBUG: avg sig-ver  = 10.00 us
+DEBUG: avg pkconst  = 4405.92 us
+
+[MSGSIZE=512]
+DEBUG: avg sig-gen  = 9.78 us
+DEBUG: avg sig-ver  = 10.34 us
+DEBUG: avg pkconst  = 4385.67 us
+
+[MSGSIZE=1024]
+DEBUG: avg sig-gen  = 10.58 us
+DEBUG: avg sig-ver  = 11.23 us
+DEBUG: avg pkconst  = 4400.39 us
+
+[MSGSIZE=2048]
+DEBUG: avg sig-gen  = 12.25 us
+DEBUG: avg sig-ver  = 12.88 us
+DEBUG: avg pkconst  = 4417.46 us
+
+[MSGSIZE=4096]
+DEBUG: avg sig-gen  = 15.47 us
+DEBUG: avg sig-ver  = 16.01 us
+DEBUG: avg pkconst  = 4412.47 us
+
+[MSGSIZE=8192]
+DEBUG: avg sig-gen  = 21.82 us
+DEBUG: avg sig-ver  = 22.40 us
+DEBUG: avg pkconst  = 4405.64 us
+
